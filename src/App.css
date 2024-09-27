@@ -33,10 +33,62 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
-
 .read-the-docs {
   color: #888;
+}
+
+/*--------------------------------------
+  カード型
+--------------------------------------*/
+.l-wrapper {
+  margin: 1rem auto;
+  width: 100%;
+}
+
+.l-wrapper:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 7px 34px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+  transition: all .5s;
+}
+.card {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.card-img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+.card-content {
+  padding: 8px 20px 20px;
+}
+.card-title {
+  font-size: 1.6em;
+  color: #333;
+  font-weight: 700;
+}
+.card-text {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 0.2em;
+}
+.card-link {
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding: 20px;
+}
+.card-link a {
+  text-decoration: none;
+  color: #4f96f6;
+  margin: 0 10px;
+}
+.card-link a:hover {
+  color: #6bb6ff;
+}
+
+.card-content p {
+  margin-bottom:0;
 }
