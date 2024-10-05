@@ -3,6 +3,7 @@ import Card from './Card.jsx';
 
 function App() {
 
+  // {`${base}/img/FKRPG.png`}
   return (
     <>
       <div>
