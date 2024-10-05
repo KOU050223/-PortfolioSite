@@ -10,8 +10,7 @@ function App() {
         <h1>KOUのこれまでの作品一覧</h1>
         <table>
           <tbody>
-          <tr>
-            <td>
+            <tr>
               <div className="l-wrapper card">
               <Card
               img="/img/FKRPG.png"
@@ -24,42 +23,38 @@ function App() {
                 <a href="#">リンク２</a>
               </div>
               </div>
-            </td>
+            </tr>
 
-            <td>
+            <tr>
             <div className="l-wrapper card">
             <Card
-              img="https://dubdesign.net/wp-content/uploads/2020/05/0508_dtplayouteyecatch.jpg"
+              img="/img/uirusu.png"
               title="ウイルスバスター"
               text="Unityのネコ本を履修後初作品<br />クリックでウイルスを消そう！"
               />
               <div className="card-link">
                 <a href="#">GitHub</a>
-                <a href="#">りんく</a>
-                <a href="#">りんく２</a>
+                <a href="https://unityroom.com/games/virus_buster_in_physics">UnityRoom</a>
               </div>
               </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
+            </tr>
+            <tr>
               <div className="l-wrapper card">
                 <Card
-                  img="https://dubdesign.net/wp-content/uploads/2020/05/0508_dtplayouteyecatch.jpg"
+                  img="/img/kurione.png"
                  title="生き残れ！クリオネちゃん"
                   text="Unity２作目（１年生２月ごろ）<br />フラッピーバードをつくろう的なやつ丸パクリ"
                 />
                 <div className="card-link">
                   <a href="#">GitHub</a>
-                  <a href="#">りんく</a>
-                  <a href="#">りんく２</a>
+                  <a href="https://unityroom.com/games/ikinokore_clionetyan">UnityRoom</a>
                 </div>
               </div>
-            </td>
-            <td>
+            </tr>
+            <tr>
             <div className="l-wrapper card">
                 <Card
-                  img="https://dubdesign.net/wp-content/uploads/2020/05/0508_dtplayouteyecatch.jpg"
+                  img="/img/posingeffect.png"
                  title="ポージングエフェクト"
                   text="ハックツハッカソン ステゴカップにて作成（2年生5月ごろ）<br />PythonとUnityを繋げて作った。MediaPipeでポーズ推定したよ"
                 />
@@ -68,10 +63,8 @@ function App() {
                 <a href="https://topaz.dev/projects/6dd69986efee3f535106">Topaz</a>
               </div>
             </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
+            </tr>
+            <tr>
             <div className="l-wrapper card">
                 <Card
                   img="/img/renkin_title.png"
@@ -83,12 +76,12 @@ function App() {
                 <a href="https://unityroom.com/games/gamejam_2024_08_22_01">UnityRoom</a>
               </div>
             </div>
-            </td>
+            </tr>
 
-            <td>
+            <tr>
             <div className="l-wrapper card">
                 <Card
-                  img="https://dubdesign.net/wp-content/uploads/2020/05/0508_dtplayouteyecatch.jpg"
+                  img="/img/justeisa.png"
                  title="ジャストエイサー"
                   text="第2回やんばるハッカソン＆ハックツハッカソンにて作成<br />Joyconを担当したがバックエンドとの接続や非同期処理難しい"
                 />
@@ -98,11 +91,10 @@ function App() {
                 <a href="https://yanabaru-e2dbfbhjdzd0gpg0.japaneast-01.azurewebsites.net/">デプロイ先</a>
               </div>
             </div>
-            </td>
-          </tr>
+            </tr>
           {/* この下に作品を追加 */}
           {/* <tr>
-            <td>
+            <tr>
               <div className="l-wrapper card">
                 <Card
                   img="https://dubdesign.net/wp-content/uploads/2020/05/0508_dtplayouteyecatch.jpg"
@@ -115,9 +107,9 @@ function App() {
                   <a href="#">りんく２</a>
                 </div>
               </div>
-            </td>
+            </tr>
 
-            <td>
+            <tr>
             <div className="l-wrapper">
             <div className="card">
             <Card
@@ -132,7 +124,7 @@ function App() {
               </div>
               </div>
               </div>
-            </td>
+            </tr>
           </tr> */}
           </tbody>
         </table>
