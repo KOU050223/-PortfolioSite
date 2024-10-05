@@ -24,3 +24,4 @@ dist-ssr
 *.sw?
 
 #大きすぎるファイル（今後運用考える）
+download
