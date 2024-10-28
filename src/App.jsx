@@ -92,6 +92,72 @@ function App() {
               </div>
             </div>
             </tr>
+          <tr>
+            <tr>
+              <div className="l-wrapper card">
+                <Card
+                  img="/img/ito.png"
+                 title="Tonkatsu___Ito"
+                  text="データエンジニアカタパルトフェーズ2で作成<br />Tonkatsu食べながら案出ししたよ～<br />チャットしながらItoが遊べるよ！"
+                />
+                <div className="card-link">
+                  <a href="https://github.com/porChe1223/Tonkatsu___Ito">GitHub</a>
+                  <a href="https://docs.google.com/presentation/d/19-Yqanv-jhIDZZhBB_HJGQ8gKHyr-sSlGYzypjaRTWk/edit?usp=sharing">Googleスライド</a>
+                </div>
+              </div>
+            </tr>
+
+            <tr>
+            <div className="l-wrapper">
+            <div className="card">
+            <Card
+              img="https://dubdesign.net/wp-content/uploads/2020/05/0508_dtplayouteyecatch.jpg"
+              title="XXXXXX"
+              text="XXXXXXXXXXXXXX"
+              />
+              <div className="card-link">
+                <a href="#">GitHub</a>
+                <a href="#">りんく</a>
+                <a href="#">りんく２</a>
+              </div>
+              </div>
+              </div>
+            </tr>
+          </tr>
+          {/* この下に作品を追加 */}
+          {/* <tr>
+            <tr>
+              <div className="l-wrapper card">
+                <Card
+                  img="https://dubdesign.net/wp-content/uploads/2020/05/0508_dtplayouteyecatch.jpg"
+                 title="XXXXXX"
+                  text="XXXXXXXXXXXXXX"
+                />
+                <div className="card-link">
+                  <a href="#">GitHub</a>
+                  <a href="#">りんく</a>
+                  <a href="#">りんく２</a>
+                </div>
+              </div>
+            </tr>
+
+            <tr>
+            <div className="l-wrapper">
+            <div className="card">
+            <Card
+              img="https://dubdesign.net/wp-content/uploads/2020/05/0508_dtplayouteyecatch.jpg"
+              title="XXXXXX"
+              text="XXXXXXXXXXXXXX"
+              />
+              <div className="card-link">
+                <a href="#">GitHub</a>
+                <a href="#">りんく</a>
+                <a href="#">りんく２</a>
+              </div>
+              </div>
+              </div>
+            </tr>
+          </tr> */}
           {/* この下に作品を追加 */}
           {/* <tr>
             <tr>
